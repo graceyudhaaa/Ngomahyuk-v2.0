@@ -1,2 +1,3 @@
-# ngomahyuk2
-solusi kedua
+# Ngomahyuk V2.0
+
+Ngomahyuk V2.0 Built with QT, QML and Felgo
