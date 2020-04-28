@@ -6,33 +6,19 @@ Page {
     width: 600
     height: 400
 
-    header: Label {
-        color: "#ec1818"
-        text: qsTr("GOOD LUCK")
-        verticalAlignment: Text.AlignVCenter
-        horizontalAlignment: Text.AlignHCenter
-        font.pixelSize: Qt.application.font.pixelSize * 2
-        padding: 10
-    }
-
     Image {
         id: image
-        x: 202
-        y: 6
-        width: 196
-        height: 100
-        fillMode: Image.PreserveAspectFit
-        source: "./high-five.png"
-    }
-
-    Text {
-        id: element
-        x: 199
-        y: 120
-        width: 203
-        height: 15
-        text: qsTr("opo meh ngene?")
-        horizontalAlignment: Text.AlignHCenter
-        font.pixelSize: 12
+        anchors.bottomMargin: 224
+        anchors.fill: parent
+        transformOrigin: Item.Center
+        source: "header.png"
+        fillMode: Image.Stretch
     }
 }
+
+/*##^##
+Designer {
+    D{i:1;anchors_height:164;anchors_width:600;anchors_x:0;anchors_y:0}
+}
+##^##*/
+
