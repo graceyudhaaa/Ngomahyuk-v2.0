@@ -144,6 +144,17 @@ Page {
         font.bold: true
         color: "#ef3644"
     }
+
+    Text {
+        id: element3
+        x: 23
+        text: qsTr("Harga:")
+        anchors.top: borderImage.bottom
+        anchors.topMargin: 109
+        anchors.left: textFieldHarga.right
+        anchors.leftMargin: 63
+        font.pixelSize: 12
+    }
 }
 
 /*##^##
