@@ -152,8 +152,49 @@ Page {
         anchors.top: borderImage.bottom
         anchors.topMargin: 109
         anchors.left: textFieldHarga.right
-        anchors.leftMargin: 63
+        anchors.leftMargin: 95
         font.pixelSize: 12
+    }
+
+    TextField {
+        id: textFieldkontrakan
+        x: 394
+        y: 301
+        text: qsTr("")
+        width: 200
+        height: 25
+        anchors.top: borderImage.bottom
+        anchors.topMargin: 103
+        anchors.left: toolSeparator.right
+        anchors.leftMargin: 100
+        placeholderText: ""
+    }
+
+    Text {
+        id: element4
+        x: 350
+        y: 342
+        width: 37
+        height: 12
+        text: qsTr("Jumlah Kamar:")
+        font.pixelSize: 12
+        anchors.top: borderImage.bottom
+        anchors.topMargin: 142
+        anchors.left: comboBoxGender.right
+        anchors.leftMargin: 53
+    }
+
+    TextField {
+        id: textField
+        x: 426
+        y: 338
+        width: 200
+        height: 25
+        anchors.top: borderImage.bottom
+        anchors.topMargin: 138
+        anchors.left: toolSeparator.right
+        anchors.leftMargin: 100
+        placeholderText: ""
     }
 }
 
