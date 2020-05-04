@@ -196,6 +196,35 @@ Page {
         anchors.leftMargin: 100
         placeholderText: ""
     }
+
+    Button {
+        id: button1
+        x: 526
+        y: 391
+        width: 87
+        height: 30
+        text: qsTr("search")
+        anchors.top: borderImage.bottom
+        anchors.topMargin: 198
+        anchors.left: toolSeparator.right
+        anchors.leftMargin: 213
+        background: Rectangle {
+            id: background1
+            color: "#ef3644"
+        }
+
+        contentItem: Text {
+            id: textItem1
+
+            font: control.font
+            opacity: enabled ? 1.0 : 0.3
+            color: "white"
+            text: "search"
+            horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignVCenter
+            elide: Text.ElideRight
+        }
+    }
 }
 
 /*##^##
